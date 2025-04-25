@@ -13,7 +13,7 @@ class Program
         list.AddFirst(9.0);
         list.AddFirst(4.1);
 
-       /* Console.WriteLine("Список:");
+        Console.WriteLine("Список:");
         foreach (var value in list)
         Console.Write($"{value:0.00} ");
         Console.WriteLine();
@@ -35,7 +35,7 @@ class Program
         Console.WriteLine("Після видалення до максимуму:");
         foreach (var value in list)
         Console.Write($"{value:0.00} "); 
-        Console.WriteLine();*/
+        Console.WriteLine();
        list.RemoveAt(3);
         
     }
